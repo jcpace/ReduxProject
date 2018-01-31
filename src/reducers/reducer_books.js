@@ -1,9 +1,8 @@
-export default function() {
+export default () => {
   return [
     {title: 'js'},
-    {title: 'js'},
-    {title: 'js'},
-    {title: 'js'},
-
-  ]
+    {title: 'Cats'},
+    {title: 'Harry Potter'},
+    {title: 'Eloquent JS'},
+  ];
 }
