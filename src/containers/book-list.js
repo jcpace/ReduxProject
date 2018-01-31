@@ -25,5 +25,4 @@ class BookList extends Component {
     };
   }
 
-
 export default connect(mapStateToProps)(BookList);
