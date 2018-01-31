@@ -10,13 +10,6 @@ class BookList extends Component {
     });
   }
 
-  mapStateToProps = (state) => {
-    return {
-      books: state.books,
-    };
-  }
-
-
   render() {
     return (
       <ul className='list-group col-sm-4'>
@@ -24,6 +17,12 @@ class BookList extends Component {
       </ul>
     );
     }
+  }
+
+  function mapStateToProps(state) {
+    return {
+      books: state.books,
+    };
   }
 
 
